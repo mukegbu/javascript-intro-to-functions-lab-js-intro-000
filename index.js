@@ -15,8 +15,12 @@ function sayHiToGrandma(sentence) {
     return "I love you,too."
   } else if(sentence == sentence.toLowerCase){
     return "I cant hear you!"
+    else if (sentence == sentence.toUpperCase){ 
+    return "YES INDEED!"
+      
+    }
   }
 
   }
 
-}
+
